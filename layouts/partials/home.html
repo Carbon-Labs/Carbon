@@ -1,0 +1,29 @@
+<main id="main">
+
+	<div class="container">
+		<div id="messagebar" class="alert alert-dismissable">
+		  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			<div id="messagebarcontent">
+		  	<strong>Info: </strong> KIWI.
+			</div>
+		</div>
+
+        {{ if .Site.Params.showSubheader }}
+            {{ partial "subheader.html" . }}
+        {{ end }}
+
+				{{ if .Site.Params.showGetInvolved }}
+            {{ partial "getinvolved.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showCarbonInfo }}
+            {{ partial "carboninfo.html" . }}
+        {{ end }}
+
+				{{ if .Site.Params.showRecentNews }}
+            {{ partial "recentnews.html" . }}
+        {{ end }}
+
+	</div>	<!-- /container -->
+
+</main>

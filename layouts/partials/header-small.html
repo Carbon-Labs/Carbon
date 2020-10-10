@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="{{.Description | default .Site.Params.SiteDescription}}">
+<meta name="keywords" content="{{with .Keywords }}{{ delimit . ", " }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
+
+	<title>{{ .Title }}</title>
+
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
+
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+
+		<!-- Scripts for tabs on getting started ppage -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+
+
+	<!--Modal window scripts  / css -->
+		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}modalwindoweffects/css/component.css" />
+		<script src="{{ .Site.BaseURL }}modalwindoweffects/js/modernizr.custom.js"></script>
+
+
+
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
+
+    {{ if .Site.Params.customsharethis }}
+        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=custom-share-buttons"></script>
+    {{ else }}
+        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=inline-share-buttons"></script>
+    {{ end }}
+
+</head>
+<body>
+
+<header id="header-small">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="{{ .Site.BaseURL }}images/logo.png" alt="">
+			<span class="title">{{ .Site.Params.name }}</span>
+			<span class="tagline">{{ .Site.Params.description }}</span>
+		</h1>
+	</div>
+    {{ partial "menu.html" . }}
+
+</header>

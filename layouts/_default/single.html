@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-md-12">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">
+							{{ if .Params.pagetitle }}
+								{{ .Params.pagetitle }}
+							{{ else }}
+								{{ .Title }}
+							{{ end }}
+						</a></h1>
+					</header>
+					<div class="entry-content">
+						{{ .Content }}
+					</div>
+				</article><!-- #post-## -->
+
+			</div>
+		</div> <!-- /row post  -->
+
+		<div class="row">
+			<div class="col-md-12">
+				<div id="comments">
+        	{{ if .Params.Comments }}
+						<h2 class="section-title"><span>Join the Discussion</span></h2>
+          	{{ partial "disqus.html" . }}
+          {{ end }}
+				</div>
+			</div>
+		</div> <!-- /row comments -->
+		<div class="clearfix"></div>
+	</div>	<!-- /container -->
+
+</main>
+
+{{ partial "footer.html" . }}

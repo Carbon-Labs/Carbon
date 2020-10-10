@@ -1,0 +1,137 @@
+baseURL = "https://www.thekiwi.online/"
+languageCode = "en-us"
+title = "CARBON | ZRC-2 Token"
+Description = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token as the source of payment. KIWI is a utility token and will offer tangible services and products."
+theme = "hugo-initio"
+publishDir = "docs"
+
+[params]
+    name = "CARBON"
+	keywords = "CARBON,token,cryptocurrency,Zilliqa,ZRC-2"  #fallback for homepage
+    description = "Zilliqa Powered ZRC-2 Token"
+	SiteDescription = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token." #fallback for homepage
+    email = ""
+    phone = ""
+    address = ""
+    lastupdated = "6th October 2020"
+    year = 2018
+    background = ""
+    favicon = "images/kiwi-logo-small.png"
+    DateForm = "January 2, 2008"
+
+    showSubheader = true
+    showCarbonInfo = true
+    showRecentNews = true
+    showGetInvolved = true
+    showPartners = true
+
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "faqs"
+    name = "FAQS"
+    url = "/faqs/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "community"
+    name = "Our Community"
+    url = "/community/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "getting-started"
+    name = "Get Started"
+    url = "/getting-started/"
+    weight = 4
+
+[[menu.main]]
+    name = "stats"
+    url = "http://thekiwi.info"
+    weight = 11
+
+[params.sharethis]
+    property = ""
+    custom = true
+
+[params.google.analytics]
+    trackerID = "UA-119106486-1"
+
+[[params.social]]
+	title = "facebook"
+	url = ""
+    icon = "fa-facebook-square"
+    footer = false
+    sharethis = true
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/thekiwitoken"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = ""
+    icon = "fa-instagram"
+    footer = false
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = ""
+    icon = "fa-google-plus-square"
+    footer = false
+    sharethis = true
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = ""
+    icon = "fa-linkedin-square"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = ""
+    icon = "fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/liberation-online"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:contact@thekiwi.online"
+    icon = "fas fa-envelope"
+    footer = true
+    sharethis = true
+    network = "email"
+[[params.social]]
+  	title = "discord"
+  	url = "https://discord.gg/pBXKwyx"
+      icon = "fab fa-discord"
+      footer = false
+      sharethis = true
+      network = "email"
