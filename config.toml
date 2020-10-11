@@ -49,12 +49,6 @@ publishDir = "docs"
     weight = 2
 
 [[menu.main]]
-    identifier = "community"
-    name = "Our Community"
-    url = "/community/"
-    weight = 3
-
-[[menu.main]]
     identifier = "getting-started"
     name = "Get Started"
     url = "/getting-started/"
