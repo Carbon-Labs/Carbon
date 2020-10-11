@@ -32,7 +32,6 @@ the meantime here is a small rundown on each of the projects.
 
 ##### AVATAR
 Avatar puts you back in control of your online identity! You should be able to access the internet freely without having to give up your personal information. Your unique blockchain address is the key to an internet that you want!
-[Read more about AVATAR](/projects/avatar/)
 
 ##### BOUNTY
 Bounty is a better crowd funding platform that lets you influence what should be developed next. Developing products based on demand.
