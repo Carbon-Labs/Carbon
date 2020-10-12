@@ -112,3 +112,10 @@ publishDir = "docs"
       footer = true
       sharethis = true
       network = "email"
+[[params.social]]
+    title = "telegram"
+    url = "https://t.me/carbontoken"
+    icon = "fab fa-telegram"
+    footer = true
+    sharethis = true
+    network = "email"
