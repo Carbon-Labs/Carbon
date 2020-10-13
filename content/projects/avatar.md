@@ -16,26 +16,22 @@ Description = ""
 Likely to have substantial changes before being finalised.
 
 # Table of Contents
-1. [Disclaimer](#disclaimer)
-2. [Introduction to AVATAR](#introduction)
-3. [What is AVATAR?](#what-is-avatar)
-4. [What is the CARBON Token?](#what-is-carbon-token)
+1. [Introduction to AVATAR](#introduction)
+2. [What is AVATAR?](#what-is-avatar)
+3. [What is the CARBON Token?](#what-is-carbon-token)
     - CARBON Token in AVATAR
-5. [The AVATAR Token](#what-is-avatar-token)
+4. [The AVATAR Token](#what-is-avatar-token)
     - Token Sale & Distribution
     - Use of the Sale Proceeds
     - Return on Investment
-6. [Where Are We Now?](#where-are-we-now)
-7. [The AVATAR solution](#avatar-solution)
+5. [Where Are We Now?](#where-are-we-now)
+6. [The AVATAR solution](#avatar-solution)
     1. Secure Login
     2. Data Protection
     3. Personalised Anonymity
     4. Data Monetisation
-8. [Adoption and Collaboration](#adoption)
-9. [Roadmap](#roadmap)
-
-## Disclaimer <a name="disclaimer"></a>
-While this document does not preclude Genesys Labs from offering holders of AVATAR tokens a share of the revenue generated from the commercial applications of the AVATAR ecosystem, such offer, if any, and the extent thereof will be at the sole and absolute discretion of Genesys Labs.  
+7. [Adoption and Collaboration](#adoption)
+8. [Roadmap](#roadmap)
 
 ## Introduction to AVATAR <a name="introduction"></a>
 AVATAR puts you back in control of your online identity! You should be able to access the internet freely without having to give up your personal information.
