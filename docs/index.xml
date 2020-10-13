@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CARBON | ZRC-2 Token</title>
+    <link>https://www.carbontoken.info/</link>
+    <description>Recent content on CARBON | ZRC-2 Token</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.carbontoken.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About | The CARBON Token</title>
+      <link>https://www.carbontoken.info/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.carbontoken.info/about/</guid>
+      <description>What is CARBON? CARBON is a utility token, rather than a security. CARBON will be used as the preferred payment method in exchange of all products, services and tools being developed by Genesys Labs as well as a growing number of other businesses.
+CARBON is an open source ZRC-2 token. CARBON is also going to be the only accepted currency for an alternative model to the ICO model. Being developed by Genesys Labs, it will bring a new standard in fairness and transparency when it comes to raising funds on the blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Projects | AVATAR | Powered By CARBON</title>
+      <link>https://www.carbontoken.info/projects/avatar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.carbontoken.info/projects/avatar/</guid>
+      <description> AVATAR </description>
+    </item>
+    
+  </channel>
+</rss>
