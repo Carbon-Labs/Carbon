@@ -1,5 +1,5 @@
 +++
-pagetitle = "Unlimited Token Offer (UTO)"
+pagetitle = " "
 title = "Projects | UTO | Powered By CARBON"
 type = ""
 weight = 3
@@ -7,6 +7,25 @@ Comments = false
 Keywords = "CARBON,Token,cryptocurrency"
 Description = ""
 +++
+
+# Unlimited Token Offer (UTO)
+> No More ICO's.
+
+_**DRAFT ONLY**_
+
+Likely to have substantial changes before being finalised.
+
+# Table of Contents
+1. [Unlimited Token Offer (UTO)](#uto)
+    1. What is an UTO?
+    2. How does an ICO typically work?
+    3. How does an UTO work?
+    4. What are the benefits compared to ICO's?
+2. [The smart contract.](#smart-contract)
+3. [Proof of Concept.](#poc)
+    1. A simple dapp
+4. [Tokens utilising UTO](#tokens-utilising-uto)
+    1. AVATAR - Genesys Labs
 
 ### What is an UTO?
 To be able to understand how a UTO works, we need to first look at how a typical ICO works.

@@ -46,7 +46,13 @@ publishDir = "docs"
     identifier = "uto"
     name = "UTO"
     url = "/projects/uto"
-    weight = 2
+    weight = 3
+
+[[menu.main]]
+    identifier = "avatar"
+    name = "AVATAR"
+    url = "/projects/avatar"
+    weight = 4
 
 [params.sharethis]
     property = ""
