@@ -57,29 +57,29 @@ At this point each Token is worth 0.01 ZIL.
 
 We can calculate the current value of a single token with the following formula:
 
-`TZIL / IR = TV`
+`TZIL / CS = TV`
 
 where:
 
 **TZIL** - Total ZIL held in UTO\
-**IR** - Current supply of UTO tokens\
-**TV** - Token Value
+**CS** - Circulating supply of UTO tokens\
+**TV** - Token Value\
 
 so:
 
 `100 / 1000 = 0.1`
 
-That is to say that each token is now worth 0.1 ZIL. Further purchases of UTO Tokens need to ensure that this value is retained. So the formula for calculating further UTO token purcahses is:
+That is to say that each token is now worth 0.1 ZIL. Further purchases of UTO Tokens need to ensure that this value is retained. So the formula for calculating further UTO token purchases is:
 
-`RPA x (TZIL/IR) = PRICE`
+`UPA x (TZIL/CS) = PRICE`
 
 where:
 
-**RPA** - Number of new Tokens being purchased
+**UPA** - Number of new Tokens being purchased
 
 So, if a buyer wants to buy a further 5000 Tokens then the cost is 500 ZIL:
 
-`5000 x (100/1000)=500 ZIL`
+`5000 x (100/1000) = 500 ZIL`
 
 After this transaction, there would be:
 
