@@ -1,3 +1,37 @@
+var contract;
+var zilliqa;
+
+//const blockchain = window.zilPay.blockchain;
+//const result = await blockchain.getBalance('zil1wl38cwww2u3g8wzgutxlxtxwwc0rf7jf27zace');
+
+window.addEventListener("load", () => {
+  console.log ("Ready...loading zil");
+  if (!window.zilPay) {
+    return null;
+    console.log("zilPay not installed");
+  } else if (!window.zilPay.wallet.isEnable) {
+    console.log("zilPay not enabled");
+    window.zilPay.wallet.connect();
+  }
+
+  zilliqa = window.zilPay;
+  contract = zilliqa.contracts.at('zil1hau7z6rjltvjc95pphwj57umdpvv0d6kh2t8zk');
+
+
+
+  //$('#zilAccount').text(window.zilPay.wallet.defaultAccount.bech32);
+
+  $('#zilAccount').text(window.zilPay.wallet.defaultAccount.bech32); //@todo - this errors sometimes / doesn't load
+
+  window.zilPay.wallet.observableAccount().subscribe(function (account) {
+    // ... When user changed account
+    $('#zilAccount').text(account.bech32);
+    console.log(account);
+  });
+
+});
+
+
 
 /** FUNCTIONS **/
 var el = function(id){ return document.querySelector(id); };
