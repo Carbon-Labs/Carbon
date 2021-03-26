@@ -1,5 +1,6 @@
 var contract;
 var zilliqa;
+var uaddy;
 
 //const blockchain = window.zilPay.blockchain;
 //const result = await blockchain.getBalance('zil1wl38cwww2u3g8wzgutxlxtxwwc0rf7jf27zace');
@@ -14,11 +15,6 @@ window.addEventListener("load", () => {
     window.zilPay.wallet.connect();
   }
 
-  zilliqa = window.zilPay;
-  contract = zilliqa.contracts.at('zil1hau7z6rjltvjc95pphwj57umdpvv0d6kh2t8zk');
-
-
-
   //$('#zilAccount').text(window.zilPay.wallet.defaultAccount.bech32);
 
   $('#zilAccount').text(window.zilPay.wallet.defaultAccount.bech32); //@todo - this errors sometimes / doesn't load
@@ -26,10 +22,23 @@ window.addEventListener("load", () => {
   window.zilPay.wallet.observableAccount().subscribe(function (account) {
     // ... When user changed account
     $('#zilAccount').text(account.bech32);
+    uaddy = account.base16.toLowerCase();
     console.log(account);
   });
 
 });
+
+document.onreadystatechange = async () => {
+  if (document.readyState === 'complete') {
+    console.log('DOM is ready.');
+    //useraddress = window.zilPay.wallet.defaultAccount.bech32;
+    console.log(uaddy);
+    zilliqa = window.zilPay;
+    contract = zilliqa.contracts.at('zil1hau7z6rjltvjc95pphwj57umdpvv0d6kh2t8zk');
+    const state = await contract.getState();
+    console.log(state.balances[uaddy]/100000000);
+  }
+};
 
 
 

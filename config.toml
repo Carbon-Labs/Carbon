@@ -124,13 +124,6 @@ publishDir = "docs"
     sharethis = false
     network = "email"
 [[params.social]]
-  	title = "discord"
-  	url = "https://discord.gg/vT4jmhr"
-      icon = "fab fa-discord"
-      footer = true
-      sharethis = true
-      network = "email"
-[[params.social]]
     title = "telegram"
     url = "https://t.me/carbonholders"
     icon = "fab fa-telegram"
