@@ -35,4 +35,4 @@ Even though the whale got what they wanted, they had to distribute wealth to get
 So the cost of a vote is the amount of votes you want multiplied by itself and paid in CARB
 
 ## Who can raise an issue, change etc on Graphite?
-Anyone.. But. We dont want to flood it with every little thing, so their will be a cost to add an issue. The cost is included into the pool of funds that are distributed at the end of voting period. So, this guarantees that each voter will be rewarded for voting.
+Anyone.. But. We don't want to flood it with every little thing, so there will be a cost to add an issue. The cost is included into the pool of funds that are distributed at the end of voting period. So, this guarantees that each voter will be rewarded for voting.
