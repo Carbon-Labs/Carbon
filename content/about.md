@@ -30,7 +30,7 @@ We have 5 key projects that we will be developing over the coming months. These 
 Each of these projects will require **CARBON** to operate. We will release more details on each of these projects shortly, in
 the meantime here is a small rundown on each of the projects.
 
-#### GRAPHITE
+##### GRAPHITE
 A unique governance model that is fairer for the whole community. We will use this governance model to power Bounty.
 
 ##### BOUNTY
