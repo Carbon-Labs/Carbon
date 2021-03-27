@@ -1,7 +1,7 @@
 +++
 pagetitle = "About The CARBON Token"
 title = "About | The CARBON Token"
-type = "about"
+type = ""
 weight = 3
 Comments = false
 Keywords = "CARBON,Token,cryptocurrency"
