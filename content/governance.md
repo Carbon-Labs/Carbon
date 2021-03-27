@@ -28,9 +28,9 @@ This would encourage more people to vote, knowing that they could potentially be
 Even though the whale got what they wanted, they had to distribute wealth to get it. And now, those passionate voters can put forward a new proposal and use their newly rewarded CARB to vote with. Using the same example but with the 99 voters voting with 101 CARB would mean that the whale is going to have to vote with 100million CARB (more than exists). This is how we get fair community governance. True representation of what the community wants.
 
 ## How is the cost of a vote calculated?
-1 Vote costs 1 CARB
-2 Votes costs 4 CARB
-3 Votes costs 9 CARB
+- 1 Vote costs 1 CARB
+- 2 Votes costs 4 CARB
+- 3 Votes costs 9 CARB
 
 So the cost of a vote is the amount of votes you want multiplied by itself and paid in CARB
 
