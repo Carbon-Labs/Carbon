@@ -43,22 +43,10 @@ publishDir = "docs"
     weight = 2
 
 [[menu.main]]
-    identifier = "treasury"
-    name = "Treasury"
-    url = "/treasury/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "uto"
-    name = "UTO"
-    url = "/projects/uto"
-    weight = 4
-
-[[menu.main]]
-    identifier = "avatar"
-    name = "AVATAR"
-    url = "/projects/avatar"
-    weight = 5
+  identifier = "governance"
+  name = "Governance"
+  url = "/governance"
+  weight = 2
 
 [params.sharethis]
     property = ""
