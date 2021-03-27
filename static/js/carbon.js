@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
     // ... When user changed account
     $('#zilAccount').text(account.bech32);
     uaddy = account.base16.toLowerCase();
+
     console.log(account);
   });
 
@@ -37,6 +38,7 @@ document.onreadystatechange = async () => {
     contract = zilliqa.contracts.at('zil1hau7z6rjltvjc95pphwj57umdpvv0d6kh2t8zk');
     const state = await contract.getState();
     console.log(state.balances[uaddy]/100000000);
+    $('#zilCount').text(state.balances[uaddy]/100000000);
   }
 };
 
